@@ -15,6 +15,7 @@ A simple storage depot for the kata I have completed or are working through.
 - Take  number and sum its digits to the consecutive power and Eureka!
 - Find the parity outlier
 - Length of missing array
+- Format a String of Names like 'Bart, Lisa & Maggie' (this is actually a dictionary problem)
 
 ### Python
 - Replace with Alphabet Position
