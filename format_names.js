@@ -4,7 +4,7 @@ function list(names){
   if (names.length < 2) {
     return names.length === 1 ? names[0].name : '';
   }
-  let nameList = names.map((v, i)=>{
+  let nameList = names.map((v)=>{
     return v.name;
   });
   let end = [nameList.pop()];
@@ -24,8 +24,19 @@ let test3 = [ {name: 'Bart'} ];
 
 let test4 = [];
 // returns ''
-
-console.log(list(test1));
-console.log(list(test2));
-console.log(list(test3));
-console.log(list(test4));
+let insert = document.getElementById('names');
+let title = document.createElement('h3');
+title.innerText = "Format a List of Objects";
+insert.appendChild(title);
+let newP = document.createElement('p');
+newP.innerText = list(test1);
+insert.appendChild(newP);
+newP = document.createElement('p');
+newP.innerText = list(test2);
+insert.appendChild(newP);
+newP = document.createElement('p');
+newP.innerText = list(test3);
+insert.appendChild(newP);
+newP = document.createElement('p');
+newP.innerText = list(test4);
+insert.appendChild(newP);

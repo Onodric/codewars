@@ -16,6 +16,7 @@ A simple storage depot for the kata I have completed or are working through.
 - Find the parity outlier
 - Length of missing array
 - Format a String of Names like 'Bart, Lisa & Maggie' (this is actually a dictionary problem)
+- Build a Pile of Cubes
 
 ### Python
 - Replace with Alphabet Position
