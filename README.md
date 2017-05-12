@@ -17,6 +17,7 @@ A simple storage depot for the kata I have completed or are working through.
 - Length of missing array
 - Format a String of Names like 'Bart, Lisa & Maggie' (this is actually a dictionary problem)
 - Build a Pile of Cubes
+- Pete the Baker
 
 ### Python
 - Replace with Alphabet Position
